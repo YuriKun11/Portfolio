@@ -811,7 +811,7 @@ canvas{
     color: #00B0DC;
     margin-bottom: 20px;
 }
-
+/* 
 .service-box:hover:after {
     top: 0;
     height: 100%;
@@ -883,7 +883,7 @@ canvas{
     bottom: 10%;
     right: 0px;
     transition: 0.9s;
-}
+} */
 
 /*-------- Services area ends ----------*/
 
@@ -895,7 +895,6 @@ canvas{
 
 .skills-area{
     position: relative;
-    background-image: url(../images/skills/1.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -1092,13 +1091,9 @@ ul.port-nav-list li a.active {
 }
 
 .projects-container {
-    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-box-pack: space-evenly;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 10px;
 }
 
@@ -1349,7 +1344,6 @@ ul.port-nav-list li a.active {
 }
 
 .testimonial-area{
-    background-image: url(../images/testimonial/bg.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
